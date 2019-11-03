@@ -1,11 +1,3 @@
-function make2DArray (cols, rows){
-    var arr = new Array(cols);
-    for (var i = 0; i<arr.length; i++){
-        arr[i] = new Array (rows);
-    }
-    return arr;
-}
-
 function Cell(x, y, w){
     this.x = x;
     this.y = y;
@@ -15,6 +7,14 @@ function Cell(x, y, w){
 }
 
 Cell.prototype.show = function(){
+      
     
-    c.rect(this.x, this.y, this.w, this.w);
+    stroke(0);
+    noFill();
+    rect(this.x, this.y, this.w, this.w);
+    if(this.revealed){
+        if (this.mine){
+            
+        }
+    }
 }
