@@ -15,7 +15,6 @@ var grid;
 var cols;
 var rows;
 var w = 40;
-
 var totalMines = 5;
 var number = [];
 
