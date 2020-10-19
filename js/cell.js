@@ -6,7 +6,7 @@ function Cell(i, j, w){
     this.w = w;
     this.neighborCount = 0
 
-    this.bee = false;
+    this.mine = false;
     this.revealed = false;
 }
 
